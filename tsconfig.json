@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "lib": ["es2020"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "./dist/",
+    "sourceMap": false,
+    "strict": true,
+    "target": "es2015"
+  },
+  "include": [
+    "./source/index.ts",
+    "./source/index-refactor.ts"
+  ]
+}
