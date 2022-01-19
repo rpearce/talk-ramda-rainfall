@@ -2,7 +2,7 @@ module.exports = {
   env: {
     browser: false,
     es6: true,
-    jest: true,
+    jest: false,
     node: true,
   },
   extends: [
@@ -14,10 +14,7 @@ module.exports = {
     sourceType: 'module',
   },
   parser: '@typescript-eslint/parser',
-  plugins: [
-    '@typescript-eslint',
-    'jest',
-  ],
+  plugins: ['@typescript-eslint'],
   rules: {
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-use-before-define': 'off',

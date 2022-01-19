@@ -93,7 +93,7 @@ console.log(`Rainfall volume in UK: ${rainfallVolumeKmCubedRounded}km^3`)
 // =============================================================================
 // Olympic pool dimensions: 50m in length, 25m in width, 1m deep (50 * 25 * 1 = volume)
 
-const poolVolumeKmCubed    = 1.25**-6
+const poolVolumeKmCubed    = 1.25 ** -6
 const numberOfPools        = rainfallVolumeKmCubed / poolVolumeKmCubed
 const numberOfPoolsRounded = numberOfPools.toFixed(2)
 
