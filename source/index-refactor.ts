@@ -238,6 +238,27 @@ console.log(`January Average: ${januaryAvgMmRounded}mm`)
 
 //console.log(`January Average: ${januaryAvgMmRounded}mm`)
 
+
+// == Refactor #7 ==
+
+//import { compose, converge, divide, length, map, propOr, sum } from 'ramda'
+
+//const getJan          = propOr('0', 'JAN')
+//const getJanNum       = compose(Number, getJan)
+//const getJanuariesSum = compose(sum, map(getJanNum))
+
+//// https://github.com/DefinitelyTyped/DefinitelyTyped/discussions/58327
+//const getJanuaryAvgMm = converge(
+//  (...args: readonly number[]) => divide(args[0], args[1]),
+//  [getJanuariesSum, length]
+//)
+
+//const januaryAvgMm        = getJanuaryAvgMm(rows)
+//const januaryAvgMmRounded = januaryAvgMm.toFixed(2)
+
+//console.log(`January Average: ${januaryAvgMmRounded}mm`)
+
+
 // =============================================================================
 // Annual average since 1910 (mm)
 
