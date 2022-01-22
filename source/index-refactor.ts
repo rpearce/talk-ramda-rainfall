@@ -122,7 +122,7 @@ console.log(`January Average: ${januaryAvgMmRounded}mm`)
 
 //const getPropOr: GetPropOr = fallback => property => data => {
 //  if (data instanceof Object) {
-//    return data[property]
+//    return data[property] || fallback
 //  } else {
 //    return fallback
 //  }
@@ -165,7 +165,7 @@ console.log(`January Average: ${januaryAvgMmRounded}mm`)
 
 //const getPropOr: GetPropOr = fallback => property => data => {
 //  if (data instanceof Object) {
-//    return data[property]
+//    return data[property] || fallback
 //  } else {
 //    return fallback
 //  }
